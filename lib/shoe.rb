@@ -15,7 +15,7 @@ class Shoe
 
   def brand=(brand)
     @brand = brand
-    if BRANDS.include?("Uggs")
+    if BRANDS.include?("brand")
 
     else
       BRANDS << brand
